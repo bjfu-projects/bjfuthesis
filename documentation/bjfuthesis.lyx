@@ -1,0 +1,1029 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass bjfuthesis
+\use_default_options false
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style plain
+\biblatex_bibstyle gb7714-2015
+\biblatex_citestyle gb7714-2015
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+frontmatter
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Chapter*
+摘要
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{abstract}
+\end_layout
+
+\end_inset
+
+ bjfuthesis文档类是为北京林业大学学生书写毕业论文准备的\SpecialChar LaTeX
+文档类。该文档类基于ctexbook文档类。它修改了一些布局与样式来提供与北京林业大学毕业论文
+规范兼容的文档布局。 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{abstract}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+keywordscn
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+LaTeX，毕业论文，北京林业大学
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Chapter*
+Abstract
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{abstract}
+\end_layout
+
+\end_inset
+
+ The bjfuthesis class is a \SpecialChar LaTeX
+
+\begin_inset space \space{}
+\end_inset
+
+class intended for students in Beijing Forestry University to write their
+ theses.
+ The class is based on the ctexbook class.
+ It modifies some of the layout and style definitions of these packages
+ in order to provide a document layout that should be compatible with Beijing
+ Forestry University Thesis Standard.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{abstract}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+keywordsen
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+LaTeX, thesis, Beijing Forestry University
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+mainmatter
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Chapter
+绪论
+\end_layout
+
+\begin_layout Section
+研究背景
+\end_layout
+
+\begin_layout Standard
+国内诸多高校都在GitHub上提供了其高校的论文模板，故本作者秉持开源共享的精神，将本\SpecialChar LaTeX
+文档类开源于https://github.com/bjfu-projects
+/bjfu-thesis。 
+\end_layout
+
+\begin_layout Section
+文档结构
+\end_layout
+
+\begin_layout Standard
+第一章为绪论，简单介绍研究背景以及文档结构。
+\end_layout
+
+\begin_layout Standard
+第二章为英文使用说明，介绍本文档类的使用方法。
+\end_layout
+
+\begin_layout Standard
+第三章为中文使用说明，介绍本文档类的使用方法。 
+\end_layout
+
+\begin_layout Chapter
+Usage Notes
+\end_layout
+
+\begin_layout Standard
+The order of following usage notes is based on the structure of the thesis.
+ 
+\end_layout
+
+\begin_layout Enumerate
+To include the cover of your thesis, put `cover.pdf' in the directory.
+ 
+\end_layout
+
+\begin_layout Enumerate
+You MUST add 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+frontmatter|
+\end_layout
+
+\end_inset
+
+ before your abstract.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Print title of Chinese abstract or English abstract: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+chapter*{abstract title}|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Print content of abstract: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+begin{abstract}|
+\end_layout
+
+\end_inset
+
+abstract content
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+end{abstract}|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Print Chinese keywords: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+keywordscn{Chinese keywords}|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Print English keywords: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+keywordsen{English keywords}|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Print table of contents: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|tableofcontents|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+You MUST add 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+mainmatter|
+\end_layout
+
+\end_inset
+
+ before the main body of your thesis.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The hierachy of the thesis: 
+\end_layout
+
+\begin_layout Verbatim
+	
+\backslash
+chapter{chapter title}
+\end_layout
+
+\begin_layout Verbatim
+	
+\backslash
+section{section title}
+\end_layout
+
+\begin_layout Verbatim
+	
+\backslash
+subsection{subsection title}
+\end_layout
+
+\begin_layout Enumerate
+Use following structure: 
+\end_layout
+
+\begin_layout Verbatim
+
+\backslash
+chapter{chapter 1 title}
+\end_layout
+
+\begin_layout Verbatim
+normal text
+\end_layout
+
+\begin_layout Verbatim
+
+\backslash
+section{section 1.1 title}
+\end_layout
+
+\begin_layout Verbatim
+normal text
+\end_layout
+
+\begin_layout Verbatim
+
+\backslash
+section{section 1.2 title}
+\end_layout
+
+\begin_layout Verbatim
+
+\backslash
+subsection{subsection 1.2.1 title}
+\end_layout
+
+\begin_layout Verbatim
+normal text
+\end_layout
+
+\begin_layout Verbatim
+...
+\end_layout
+
+\begin_layout Enumerate
+Floats are set to be centered by default, with default allowed positions
+ being current position in code, top, bottom and a separate page.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Put images you want to insert in 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+figures|
+\end_layout
+
+\end_inset
+
+, and you DO NOT need to include 'figures' in your path 
+\end_layout
+
+\begin_layout Enumerate
+Show two captions for a figure or a table:
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+bicaption{Chinese caption}{English caption}|
+\end_layout
+
+\end_inset
+
+ You MUST place figures in 'figure' environment, and table in 'table' environmen
+t, which MUST match, or 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+bicaption{Chinese caption}{English caption}|
+\end_layout
+
+\end_inset
+
+ will not work as expected.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Show a note for a figure or table: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+chartnote{a note for a figure or a table}|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+You MUST add 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+backmatter|
+\end_layout
+
+\end_inset
+
+ before your references and your acknowledgement.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Print bibliography: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+printbibliography|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Chapter
+使用说明
+\end_layout
+
+\begin_layout Standard
+以下使用说明的顺序基于论文的结构 
+\end_layout
+
+\begin_layout Enumerate
+要将你的论文封面插入论文，需将
+\begin_inset Quotes eld
+\end_inset
+
+cover.pdf
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+置于该目录中 
+\end_layout
+
+\begin_layout Enumerate
+你必须在摘要部分前加入
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+frontmatter|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+显示中文或英文摘要标题：
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+chapter*{摘要标题}|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+显示摘要内容：
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+begin{abstract}|
+\end_layout
+
+\end_inset
+
+摘要内容
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+end{abstract}|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+显示中文关键词：
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+keywordscn{中文关键词}|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+显示英文关键词：
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+keywordsen{英文关键词}|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+显示目录：
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|tableofcontents|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+你必须在你的论文的主体部分前加入
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+mainmatter|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+论文具有的层次划分： 
+\end_layout
+
+\begin_layout Verbatim
+	
+\backslash
+chapter{一级标题}
+\end_layout
+
+\begin_layout Verbatim
+	
+\backslash
+section{二级标题}
+\end_layout
+
+\begin_layout Verbatim
+	
+\backslash
+subsection{三级标题}
+\end_layout
+
+\begin_layout Enumerate
+使用以下层次结构： 
+\end_layout
+
+\begin_layout Verbatim
+	
+\backslash
+chapter{一级标题 1}
+\end_layout
+
+\begin_layout Verbatim
+	正文文字
+\end_layout
+
+\begin_layout Verbatim
+	
+\backslash
+section{二级标题 1.1}
+\end_layout
+
+\begin_layout Verbatim
+	正文文字
+\end_layout
+
+\begin_layout Verbatim
+	
+\backslash
+section{二级标题 1.2}
+\end_layout
+
+\begin_layout Verbatim
+	
+\backslash
+subsection{三级标题 1.2.1}
+\end_layout
+
+\begin_layout Verbatim
+	正文文字
+\end_layout
+
+\begin_layout Verbatim
+	……
+\end_layout
+
+\begin_layout Enumerate
+浮动体已默认居中，且默认允许的位置已设为“当前代码中的位置、顶部、底部、单独成页” 
+\end_layout
+
+\begin_layout Enumerate
+将你需要插入的图片置于
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+figures|
+\end_layout
+
+\end_inset
+
+中，无需在路径中包含“figures” 
+\end_layout
+
+\begin_layout Enumerate
+为一张图或一个表显示两个图（表）题：
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+bicaption{中文图题}{英文图题}|
+\end_layout
+
+\end_inset
+
+ 你必须将图置于“figure”环境中，表置于“table”环境中，必须匹配。 否则
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+bicaption{中文图题}{英文图题}|
+\end_layout
+
+\end_inset
+
+不会起作用 
+\end_layout
+
+\begin_layout Enumerate
+显示图表注： 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+chartnote{图的注释或表的注释}|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+你必须在你的参考文献前加入
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+backmatter|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+显示参考文献：
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+printbibliography|
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+backmatter
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Chapter
+参考文献
+\end_layout
+
+\begin_layout Chapter
+致谢
+\end_layout
+
+\begin_layout Standard
+感谢所有为本项目提供过帮助的人的贡献。 
+\end_layout
+
+\end_body
+\end_document
